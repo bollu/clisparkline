@@ -10,7 +10,7 @@ Maintainer  : siddu.druid@gmail.com
 
 @seriesPrintSparkline@ prints a sparkline to stdout.
 -}
-module Sparkline where
+module System.Console.Sparkline where
 
 -- | Characters in the sparkline
 sparkchars :: String
