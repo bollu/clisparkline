@@ -1,5 +1,9 @@
 # clisparkline
 
+
+![Hackage](https://img.shields.io/hackage/v/clisparkline.svg)
+
+
 Sparklines are tiny charts to visually present data, like so: `_▁▂▃▄▅▆▇█`
 
 `clisparklines` is a tiny haskell library to print sparklines on the CLI.
