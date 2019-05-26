@@ -42,6 +42,14 @@ maintainer:          siddu.druid@gmail.com
 
 category:            Graphics
 
+synopsis: Tiny library to pretty print sparklines onto the CLI
+
+description: Print sparklines into the CLI. Example usage:
+    > import System.Console.Sparkline
+    > main = putStrLn . series2spark $ [0, 1, 2, 3, 2, 1]
+    output is:
+    > _▂▅█▅▂
+
 build-type:          Simple
 
 -- Extra files to be distributed with the package, such as examples or a
@@ -86,3 +94,6 @@ test-suite clisparkline-test
   -- Test dependencies.
   build-depends:       base >=4.12 && <4.13
 
+source-repository head
+    type: git
+    location: https://github.com/bollu/clisparkline.git
